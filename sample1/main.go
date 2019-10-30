@@ -12,7 +12,7 @@ import (
 
 /*
  * usersテーブルへデータを保存する。
- * 10件以上データが存在する場合、エラーメッセージを表示する。
+ * 100件以上データが存在する場合、エラーメッセージを表示する。
  */
 func main() {
 
@@ -49,4 +49,3 @@ func (c *UserController) Add(name string) string {
 
 	return "ユーザーを登録しました。"
 }
-
